@@ -9,9 +9,15 @@ namespace SimpleBlog.Controllers
     public class AuthController : Controller
     {
         // GET: Auth
-        public ActionResult Index()
+        public ActionResult Login()
         {
             return Content("Login!");
         }
+
+        //public ActionResult Login()
+        //{
+        //    return View();
+        //}
+
     }
 }
